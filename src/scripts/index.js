@@ -12,7 +12,6 @@ document.getElementById('btn-search').addEventListener('click', () => {
 })
 
 document.getElementById('input-search').addEventListener('keyup', (e) => {
-    console.log('Evento keyup acionado:', e)
     const userName = e.target.value
     const key = e.key;
     const isEnterKeyPressed = key === "Enter";
